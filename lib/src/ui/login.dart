@@ -1,14 +1,24 @@
-// write a flutter login function
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:desi/src/ui/login/desktoploginscreen.dart';
+import 'package:desi/src/ui/login/mobile_login_screen.dart';
+import 'package:flutter/material.dart';
 
-class login extends StatelessWidget {
-  const login({super.key});
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      body: LayoutBuilder(
+        builder: (BuildContext context, BoxConstraints constraints) {
+          if (constraints.maxWidth < 600) {
+            return  MobileLoginScreen();
+          } else if (constraints.maxWidth < 600 && constraints.maxWidth < 900) {
+            return  MobileLoginScreen();// for tablet login screen
+          } else {
+            return DesktopLoginScreen();
+         }
+        },
+      ),
     );
   }
 }
