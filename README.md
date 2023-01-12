@@ -2,7 +2,7 @@
 
 An augmented next gen dating app, efficient and interactive romantic experience.
 
-## Features
+## <u>Features:
 
     1. Login/Registration: The first screen of the app would be a login/registration page, where users can enter their information and create an account. This page would include fields for email, password, and possibly a profile photo.
 
@@ -17,7 +17,7 @@ An augmented next gen dating app, efficient and interactive romantic experience.
     6. Notifications: Users would receive notifications when they have a new match or message, and also when someone viewed their profile.
 
     7. Design: The app would have a modern and minimalist design, with a color scheme that is visually pleasing and easy to navigate. The UI would be intuitive and user-friendly, making it easy for users to find what they need.
-### System Design
+### <u>System Design:
 
     User Interface:
         The app's user interface would be built using the Flutter framework. This would include the various screens and widgets for displaying user profiles, match lists, chat functionality, and other features.
