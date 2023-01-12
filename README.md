@@ -42,7 +42,7 @@ An augmented next gen dating app, efficient and interactive romantic experience.
 
     Analytics:
         AWS Pinpoint or AWS Mobile Analytics would be used to collect and analyze usage data. This would help you understand how users are interacting with the app and improve its performance and user experience.
-#### Architecture
+#### <b>Architecture:
 
 Authentication:
 
