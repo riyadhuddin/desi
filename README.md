@@ -3,7 +3,8 @@
 An augmented next gen dating app, efficient and interactive romantic experience.
 
 ## Features
-   1. Login/Registration: The first screen of the app would be a login/registration page, where users can enter their information and create an account. This page would include fields for email, password, and possibly a profile photo.
+
+    1. Login/Registration: The first screen of the app would be a login/registration page, where users can enter their information and create an account. This page would include fields for email, password, and possibly a profile photo.
 
     2. Profile: Once logged in, users would be taken to their profile page, where they can view and edit their personal information, including a profile picture, a short bio, and their preferences for a potential match.
 
@@ -17,6 +18,7 @@ An augmented next gen dating app, efficient and interactive romantic experience.
 
     7. Design: The app would have a modern and minimalist design, with a color scheme that is visually pleasing and easy to navigate. The UI would be intuitive and user-friendly, making it easy for users to find what they need.
 ### System Design
+
     User Interface:
         The app's user interface would be built using the Flutter framework. This would include the various screens and widgets for displaying user profiles, match lists, chat functionality, and other features.
 
@@ -41,6 +43,7 @@ An augmented next gen dating app, efficient and interactive romantic experience.
     Analytics:
         AWS Pinpoint or AWS Mobile Analytics would be used to collect and analyze usage data. This would help you understand how users are interacting with the app and improve its performance and user experience.
 #### Architecture
+
 Authentication:
 
     AWS Cognito for user authentication and management. This allows you to handle user registration, sign-in, and forgot password flows, as well as to manage user data and permissions.
@@ -58,4 +61,5 @@ Push notifications:
     AWS Pinpoint for sending push notifications to users. Pinpoint is a messaging service that allows you to send personalized messages to your users, whether they're using your app or not.
 
 Analytics:
+
     AWS Pinpoint or AWS Mobile Analytics for collecting and analyzing usage data. This can help you understand how users are interacting with your app, so you can improve its performance and user experience.
